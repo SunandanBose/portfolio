@@ -1,13 +1,105 @@
+html,
 body {
+  background: white;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  height: inherit;
+}
+
+.title {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: 30vh;
+  width: 65%;
+  top: 0;
+  height: 40%;
+}
+
+.name { 
+  color: black; 
+  font-family: 'Rubik',sans-serif; 
+  font-size: 7vw; 
+  font-weight: 800;   
+  line-height: 8vw; 
+  margin: 0 auto; 
+  width: 100%;
+  text-align: center; 
+  /* text-transform: uppercase;  */
+  display: inline-block;
+}
+
+.description {
+  color: black; 
+  font-family: 'Rubik',sans-serif; 
+  font-size: 2vw; 
+  font-weight: 500;   
+  line-height: 3vw; 
+  margin: 0 auto; 
+  width: 100%;
+  text-align: center; 
+  /* text-transform: uppercase;  */
+  display: inline-block;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  margin: 0 15px;
+}
+
+.icontray{
+  width : 100%;
+  /* height: 40px; */
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (max-width: 731px) {
+  .name { 
+    font-size: 10vw; 
+    line-height: 11vw; 
+    margin: 3vw auto
+  }
+
+  .icontray{
+    flex-wrap: wrap;
+  }
+
+  .description {
+    font-size: 3vw; 
+    font-weight: 600;   
+    line-height: 5vw; 
+    margin: 3vw auto; 
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .name { 
+    font-size: 15vw; 
+    line-height: 13vw; 
+  }
+
+  .icontray{
+    flex-wrap: wrap;
+  }
+
+  .icon{
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+  }
+
+  .description {
+    font-size: 4.5vw; 
+    font-weight: 700;   
+    line-height: 7vw; 
+    margin: 3vw auto; 
+  }
 }
