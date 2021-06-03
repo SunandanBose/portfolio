@@ -33,7 +33,7 @@ function MyStory() {
             </div>
         </div>
         <h1>Work in progress.......</h1>
-        <h1></h1>
+        <br/>
         <br />
     </div>
     );
