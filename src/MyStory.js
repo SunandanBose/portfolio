@@ -2,6 +2,7 @@ import React from "react";
 import './css/MyStory.css';
 import profilePic from './images/profilePic.jpeg';
 
+
 function MyStory() {
     return (
     <div className="root">
@@ -31,6 +32,9 @@ function MyStory() {
                 <span className="topicTitle">Tools</span>
             </div>
         </div>
+        <h1>Work in progress.......</h1>
+        <h1></h1>
+        <br />
     </div>
     );
 }

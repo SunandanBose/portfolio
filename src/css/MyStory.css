@@ -62,3 +62,24 @@
     /* text-transform: uppercase;  */
     display: inline-block;
 }
+
+@media screen and (max-width: 500px) {
+    .header {
+        font-size: 7vw; 
+    }
+    .root {
+        margin-top: I 2vh;
+    }
+    .aboutme {
+        font-size: 4vw; 
+        font-weight: 300;   
+        line-height: 5vw; 
+    }
+
+    .photo {
+        border-radius: 50%;
+        height: 20vh;
+    }
+}
+
+
