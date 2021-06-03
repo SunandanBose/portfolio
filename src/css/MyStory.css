@@ -1,0 +1,41 @@
+.root {
+    margin-top: 12vh;
+    background: rgb(250,251,251);
+    background: linear-gradient(180deg, rgba(250,251,251,1) 0%, rgba(250,251,251,1) 65%, rgba(181,183,184,1) 100%);
+}
+
+.header {
+    color: black; 
+    font-family: 'Rubik', sans-serif; 
+    font-size: 5vw; 
+    font-weight: 600;   
+    line-height: 8vw; 
+    margin: 0 auto; 
+    width: 100%;
+    text-align: center; 
+    /* text-transform: uppercase;  */
+    display: inline-block;
+
+}
+
+.profile {
+    text-align: center;
+}
+
+.photo {
+    border-radius: 50%;
+    height: 25vh;
+}
+
+.aboutme {
+    color: black; 
+    font-family: 'Rubik', sans-serif; 
+    font-size: 3vw; 
+    font-weight: 200;   
+    line-height: 3vw; 
+    margin: 0 auto; 
+    width: 70%;
+    text-align: center; 
+    /* text-transform: uppercase;  */
+    display: inline-block;
+}

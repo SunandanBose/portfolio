@@ -7,6 +7,7 @@ import Github from './images/GitHub.png';
 import LinkedIn from './images/LinkedIn.png';
 import Resume from './images/Resume.png';
 import CV from'./files/Resume.pdf';
+import MyStory from './MyStory'
 
 const styles = {
   root: {
@@ -48,6 +49,7 @@ function App() {
             </div>
           </div>
       </div>
+      <MyStory />
     </div>
   );
 }
