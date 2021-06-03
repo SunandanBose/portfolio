@@ -30,9 +30,32 @@
 .aboutme {
     color: black; 
     font-family: 'Rubik', sans-serif; 
-    font-size: 3vw; 
+    font-size: 2vw; 
     font-weight: 200;   
     line-height: 3vw; 
+    margin: 0 auto; 
+    width: 70%;
+    text-align: center; 
+    /* text-transform: uppercase;  */
+    display: inline-block;
+}
+
+.tech {
+    display: flex;
+    justify-content: center;
+    margin:  30px auto;
+}
+
+.topic {
+    margin: 20px auto;
+}
+
+.topicTitle{
+    color: black; 
+    font-family: 'Rubik', sans-serif; 
+    font-size: 2vw; 
+    font-weight: 500;   
+    line-height: 2vw; 
     margin: 0 auto; 
     width: 70%;
     text-align: center; 

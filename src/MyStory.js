@@ -17,6 +17,20 @@ function MyStory() {
             Experienced in CI/CD tools to automate deployments.
         </span>
         </div>
+        <div className="tech">
+            <div className="topic">
+                <span className="topicTitle">Backend</span>
+            </div>
+            <div className="topic">
+                <span className="topicTitle">Frontend</span>
+            </div>
+            <div className="topic">
+                <span className="topicTitle">Languages</span>
+            </div>
+            <div className="topic">
+                <span className="topicTitle">Tools</span>
+            </div>
+        </div>
     </div>
     );
 }
