@@ -40,6 +40,11 @@ const showAboutMe = () => {
     window.scrollTo(0,homepage.scrollHeight);
 }
 
+const showAlert = () => {
+  alert("You don't have download rights.\nPlease contact Sunandan if you want to download his Resume.\n")
+  return
+}
+
 function App() {
   return (
     <div className={styles.root}>
@@ -62,8 +67,9 @@ function App() {
             <div>
               <a aria-label= "EmailIcon" href="mailto:sunandanbose17@gmail.com" ><img className="icon" alt="Email" src={Email}/></a>
             </div>
-            <div>
-              <a aria-label= "ResumeIcon" href={CV} download="Resume"><img className="icon" alt="Resume" src={Resume}/></a>
+            <div onClick={showAlert}>
+              <a aria-label= "ResumeIcon" href="/" ><img className="icon" alt="Resume" src={Resume}/></a>
+              {/* <a aria-label= "ResumeIcon" href="/" download="Resume"><img className="icon" alt="Resume" src={Resume}/></a> */}
             </div>
           </div>
           <div className="downArrayDiv" onClick={showAboutMe}>

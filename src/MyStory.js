@@ -45,13 +45,13 @@ function MyStory() {
                 <span className="topicDescription">My favorite languages for systems programming, web automation, and data analysis.</span>
                 <div className="logos">
                     <div className="logo">
-                        <FontAwesomeIcon icon={faJava} size={size()} color="red"/>
+                        <FontAwesomeIcon  className="logoImage" icon={faJava} size={size()} color="red"/>
                     </div>
-                    <div className="logo">
-                        <FontAwesomeIcon icon={faPython} size={size()} color="purple"/>
+                    <div className="logo logoImage">
+                        <FontAwesomeIcon  className="logoImage" icon={faPython} size={size()} color="purple"/>
                     </div>
-                    <div className="logo">
-                        <FontAwesomeIcon icon={faJsSquare} size={size()} color="goldenrod"/>
+                    <div className="logo logoImage">
+                        <FontAwesomeIcon  className="logoImage" icon={faJsSquare} size={size()} color="goldenrod"/>
                     </div>  
                 </div>
             </div>
@@ -65,9 +65,6 @@ function MyStory() {
                     <div className="logo">
                         <img className="logoImage" src={ spring } alt="spring" />
                     </div>
-                    {/* <div className="logo">
-                        <FontAwesomeIcon icon={faNode} size={size()} color="DarkGreen"/>
-                    </div>  */}
                     <div className="logo">
                         <img className="logoImage" src={ mysql } alt="spring" />
                     </div>
@@ -80,14 +77,14 @@ function MyStory() {
                 <span className="topicTitle">Frontend</span>
                 <span className="topicDescription">My preferred technologies for front-end web development and component design.</span>
                 <div className="logos">
-                    <div className="logo">
-                        <FontAwesomeIcon icon={faReact} size={size()} color="DarkBlue"/>
+                    <div className="logo logoImage">
+                        <FontAwesomeIcon  className="logoImage" icon={faReact} size={size()} color="DarkBlue"/>
                     </div>
-                    <div className="logo">
-                        <FontAwesomeIcon icon={faHtml5} size={size()} color="fireBrick"/>
+                    <div className="logo logoImage">
+                        <FontAwesomeIcon  className="logoImage" icon={faHtml5} size={size()} color="fireBrick"/>
                     </div>
-                    <div className="logo">
-                        <FontAwesomeIcon icon={faCss3Alt} size={size()} color="tamato"/>
+                    <div className="logo logoImage">
+                        <FontAwesomeIcon  className="logoImage" icon={faCss3Alt} size={size()} color="tamato"/>
                     </div>  
                     
                 </div>
@@ -99,8 +96,8 @@ function MyStory() {
                     <div className="logo">
                         <img className="logoImage" src={ docker } alt="Docker" />
                     </div>
-                    <div className="logo">
-                        <FontAwesomeIcon icon={faGithub} size={size()}/>
+                    <div className="logo logoImage">
+                        <FontAwesomeIcon  className="logoImage" icon={faGithub} size={size()}/>
                     </div>
                     <div className="logo">
                         <img className="logoImage" src={ kubernetes } alt="kubernetes" />

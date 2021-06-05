@@ -46,7 +46,7 @@
 }
 
 .topic {
-    margin: 20px auto;
+    margin: 20px 10px;
     width: 35vh;
 }
 
@@ -70,8 +70,8 @@
 }
 
 .logoImage {
-    width: 10vh;
-    height: 11vh;
+    width: 9vh;
+    height: 10vh;
 }
 
 .logo {
@@ -91,11 +91,57 @@
     display: inline-block;
  }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1440px) {
+    .logoImage {
+        width: 7vh;
+        height: 8vh;
+    }
+
+    .topic {
+        margin: 20px 15px;
+        width: 35vh;
+    }
+
+    .topicDescription{
+        color: black; 
+        font-family: 'Rubik', sans-serif; 
+        font-size: 1.2vw; 
+        font-weight: 200;   
+        line-height: 2vw; 
+        margin: 1vw auto; 
+        width: 100%;
+        text-align: center; 
+        /* text-transform: uppercase;  */
+        display: inline-block;
+        height: 13vh
+     }
+}
+
+@media screen and (max-width: 550px) {
     .header {
         font-size: 7vw; 
         margin: 2vh auto; 
     }
+
+    .topic {
+        margin: 20px auto;
+        width: 35vh;
+    }
+
+    .topicDescription{
+        color: black; 
+        font-family: 'Rubik', sans-serif; 
+        font-size: 1vw; 
+        font-weight: 200;   
+        line-height: 1.5vw; 
+        margin: 1vw auto; 
+        width: 100%;
+        text-align: center; 
+        /* text-transform: uppercase;  */
+        display: inline-block;
+        height: 7vh
+     }
+
     .root {
        
     }
