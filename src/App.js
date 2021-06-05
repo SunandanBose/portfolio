@@ -25,6 +25,9 @@ const styles = {
 };
 
 function size(){
+  var x = window.matchMedia("(max-width: 731px)")
+  if(x.matches)
+      return "3x"
   var x = window.matchMedia("(max-width: 500px)")
   if(x.matches)
       return "2x"

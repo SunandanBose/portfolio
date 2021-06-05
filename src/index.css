@@ -73,7 +73,7 @@ body {
 .downArrayDiv {
   width: 100%;
   text-align: center;
-  margin-top: 35vh;
+  margin-top: 25vh;
 }
 
 
@@ -94,6 +94,13 @@ body {
     line-height: 5vw; 
     margin: 3vw auto; 
   }
+
+  .downArrayDiv {
+    width: 100%;
+    text-align: center;
+    margin-top: 20vh;
+  }  
+
 }
 
 @media screen and (max-width: 500px) {
@@ -127,9 +134,6 @@ body {
 }
 
 @keyframes blink {
-  /* 0%   {color: white}
-  50%  {color: black}
-  100% {color: white} */
   from {top: 0px;}
   to {top: 30px; color: white;}
 }
