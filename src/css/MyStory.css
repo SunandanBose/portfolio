@@ -1,5 +1,4 @@
 .root {
-    margin-top: 12vh;
     background-image: linear-gradient(to bottom, #f9fbfe, #c4c6ca, #929498, #636569, #38393d);
 }
 
@@ -97,7 +96,7 @@
         font-size: 7vw; 
     }
     .root {
-        margin-top: I 2vh;
+       
     }
     .aboutme {
         font-size: 4vw; 

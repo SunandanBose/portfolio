@@ -34,6 +34,12 @@ function size(){
   return "6x"
 }
 
+const showAboutMe = () => {
+  var homepage = document.getElementById("tsparticles")
+  if(homepage)
+    window.scrollTo(0,homepage.scrollHeight);
+}
+
 function App() {
   return (
     <div className={styles.root}>
@@ -60,7 +66,7 @@ function App() {
               <a aria-label= "ResumeIcon" href={CV} download="Resume"><img className="icon" alt="Resume" src={Resume}/></a>
             </div>
           </div>
-          <div className="downArrayDiv">
+          <div className="downArrayDiv" onClick={showAboutMe}>
             <FontAwesomeIcon icon={faChevronDown}  className="downIcon" size={size()}/>
           </div>
       </div>
