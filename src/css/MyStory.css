@@ -1,7 +1,6 @@
 .root {
     margin-top: 12vh;
-    background: rgb(250,251,251);
-    background: linear-gradient(180deg, rgba(250,251,251,1) 0%, rgba(250,251,251,1) 65%, rgba(181,183,184,1) 100%);
+    background-image: linear-gradient(to bottom, #f9fbfe, #c4c6ca, #929498, #636569, #38393d);
 }
 
 .header {
