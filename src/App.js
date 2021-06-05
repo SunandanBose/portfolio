@@ -8,6 +8,8 @@ import LinkedIn from './images/LinkedIn.png';
 import Resume from './images/Resume.png';
 import CV from'./files/Resume.pdf';
 import MyStory from './MyStory'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 const styles = {
   root: {
@@ -21,6 +23,13 @@ const styles = {
     position: "absolute"
   }
 };
+
+function size(){
+  var x = window.matchMedia("(max-width: 500px)")
+  if(x.matches)
+      return "2x"
+  return "6x"
+}
 
 function App() {
   return (
@@ -47,6 +56,9 @@ function App() {
             <div>
               <a aria-label= "ResumeIcon" href={CV} download="Resume"><img className="icon" alt="Resume" src={Resume}/></a>
             </div>
+          </div>
+          <div className="downArrayDiv">
+            <FontAwesomeIcon icon={faChevronDown}  className="downIcon" size={size()}/>
           </div>
       </div>
       <MyStory />
