@@ -6,7 +6,7 @@ import Facebook from './images/Facebook.png';
 import Github from './images/GitHub.png';
 import LinkedIn from './images/LinkedIn.png';
 import Resume from './images/Resume.png';
-import CV from'./files/Resume.pdf';
+// import CV from'./files/Resume.pdf';
 import MyStory from './MyStory'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
