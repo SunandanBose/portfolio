@@ -16,11 +16,10 @@ body {
 
 .title {
   position: absolute;
-  margin-left: 17vw;
-  margin-top: 30vh;
-  width: 65%;
+  width: 100%;
   top: 0;
   height: 40%;
+  top: 33%
 }
 
 .name { 
@@ -81,7 +80,7 @@ body {
   .name { 
     font-size: 10vw; 
     line-height: 11vw; 
-    margin: 3vw auto
+    margin: 0 auto
   }
 
   .icontray{
