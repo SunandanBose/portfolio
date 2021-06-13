@@ -2,52 +2,27 @@ export var data = {
     "blogs" : [
         {
             "id": 1,
-            "title": "My First Blog",
-            "body": "This is my first Blog",
-            "imageUrl": "/images/blog/title.jpeg"
+            "title": "Vaccination Slot Finder",
+            "body": "It will help trigger notification if vaccination is available at any center at any given district.",
+            "imageUrl": "/images/blog/vaccination.png"
         },
         {
             "id": 2,
-            "title": "My Second Blog",
-            "body": "This is my second Blog",
-            "imageUrl": ""
+            "title": "Data Structure and Algorithm",
+            "body": "Solve Data Structure problems in managing and storing data in efficient format that enables efficient access and modification.",
+            "imageUrl": "/images/blog/DataStructure.png"
         },
         {
             "id": 3,
-            "title": "My Second Blog",
-            "body": "This is my second Blog",
-            "imageUrl": ""
+            "title": "Notification Service",
+            "body": "Send mail and message notification service for any given template.",
+            "imageUrl": "/images/blog/Notification.jpeg"
         },
         {
             "id": 4,
-            "title": "My Second Blog",
-            "body": "This is my second Blog",
-            "imageUrl": ""
-        },
-        {
-            "id": 5,
-            "title": "My Second Blog",
-            "body": "This is my second Blog",
-            "imageUrl": ""
-        },
-        {
-            "id": 6,
-            "title": "My Second Blog",
-            "body": "This is my second Blog",
-            "imageUrl": ""
-        },
-        {
-            "id": 7,
-            "title": "My Second Blog",
-            "body": "This is my second Blog",
-            "imageUrl": ""
-        },
-        {
-            "id": 8,
-            "title": "My Second Blog",
-            "body": "This is my second Blog",
-            "imageUrl": ""
+            "title": "UnIdiot Blogging Website",
+            "body": "Blogging Website where you can write blogs",
+            "imageUrl": "/images/blog/event_mgmt.png"
         }
-    ],
-    "city": "abc"
+    ]
 }

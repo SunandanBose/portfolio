@@ -11,7 +11,7 @@ function Blog(props) {
                 </div>
                 <div className="flip-card-back">
                     <h1>{props.title}</h1> 
-                    <p>{props.body}</p> 
+                    <span className="blogDescription">{props.body}</span> 
                 </div>
             </div>
         </div>

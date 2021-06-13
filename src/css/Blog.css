@@ -38,7 +38,7 @@
   }
   
   .flip-card-back {
-    background-color: white;
+    background-color: lightsteelblue;
     color: black;
     transform: rotateY(180deg);
   }
@@ -48,3 +48,30 @@
       height: 300px;
       border-radius: 20px;
   }
+
+  .blogDescription{
+    color: black; 
+    font-family: 'Rubik', sans-serif; 
+    font-size: 1.2vw; 
+    font-weight: 200;   
+    line-height: 2vw; 
+    margin: 2px auto; 
+    width: 95%;
+    text-align: center; 
+    display: inline-block;
+ }
+
+ @media screen and (max-width: 650px) {
+    .blogDescription{
+        color: black; 
+        font-family: 'Rubik', sans-serif; 
+        font-size: 3vw; 
+        font-weight: 200;   
+        line-height: 3.5vw; 
+        margin: 2px auto; 
+        width: 95%;
+        text-align: center; 
+        display: inline-block;
+     }
+}
+

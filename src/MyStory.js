@@ -108,9 +108,6 @@ function MyStory() {
                 </div>
             </div>
         </div>
-        <h1 style={{textAlign: "center", color : "white"}}>Blogs in progress...</h1>
-        <br/>
-        <br />
     </div>
     );
 }

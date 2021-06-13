@@ -5,3 +5,25 @@
     width: 100%;
     justify-content: center;
 }
+
+.blogsHeader {
+    color: black; 
+    font-family: 'Rubik', sans-serif; 
+    font-size: 5vw; 
+    font-weight: 700;   
+    line-height: 6vw; 
+    margin: 4vh auto; 
+    width: 100%;
+    text-align: center; 
+    /* text-transform: uppercase;  */
+    display: inline-block;
+
+}
+
+@media screen and (max-width: 550px) {
+    .blogsHeader {
+        font-size: 7vw; 
+        font-weight: 600; 
+        margin: 4vh auto; 
+    }
+}
