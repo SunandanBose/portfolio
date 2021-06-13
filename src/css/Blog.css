@@ -59,5 +59,10 @@
     width: 95%;
     text-align: center; 
     display: inline-block;
+    height: 150px;
  }
 
+  .more {
+      float: right;
+      margin-right: 5px;
+  }

@@ -12,6 +12,8 @@ function Blog(props) {
                 <div className="flip-card-back">
                     <h1>{props.title}</h1> 
                     <span className="blogDescription">{props.body}</span> 
+                    <div className="more"><a href={props.github}>More...</a></div>
+                    
                 </div>
             </div>
         </div>

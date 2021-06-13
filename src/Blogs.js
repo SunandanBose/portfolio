@@ -8,7 +8,7 @@ function Blogs() {
     return (
         <div className="blogs">
             <div className="blogsHeader"><span>Projects</span></div>
-            { data.blogs.map((blog) => <Blog id={blog.id} title={blog.title} body={blog.body} image={blog.imageUrl}/> )}
+            { data.blogs.map((blog) => <Blog id={blog.id} title={blog.title} body={blog.body} image={blog.imageUrl} github={blog.github}/> )}
         </div>
     );
 }
