@@ -10,6 +10,7 @@ import Resume from './images/Resume.png';
 import MyStory from './MyStory'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import Blogs from "./Blogs";
 
 const styles = {
   root: {
@@ -77,6 +78,7 @@ function App() {
           </div>
       </div>
       <MyStory />
+      <Blogs />
     </div>
   );
 }
