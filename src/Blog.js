@@ -1,19 +1,17 @@
 import React from "react";
-import profilePic from './images/profilePic.jpeg';
 import './css/Blog.css'
 
 
-function Blog() {
+function Blog(props) {
     return (
         <div className="flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                    <img src={profilePic} alt="Avatar" className="image"/>
+                    <img src={ props.image !== "" ? props.image : "images/blog/blog.jpeg" } alt="Avatar" className="image"/>
                 </div>
                 <div className="flip-card-back">
-                    <h1>John Doe</h1> 
-                    <p>Architect Engineer</p> 
-                    <p>We love that guy</p>
+                    <h1>{props.title}</h1> 
+                    <p>{props.body}</p> 
                 </div>
             </div>
         </div>

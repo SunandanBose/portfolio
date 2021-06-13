@@ -1,0 +1,7 @@
+.blogs {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
