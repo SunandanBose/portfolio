@@ -54,15 +54,20 @@
     font-family: 'Rubik', sans-serif; 
     font-size: 2vh; 
     font-weight: 250;   
-    line-height: 2.5vh; 
+    /* line-height: 2.5vh; 
     margin: 2px auto; 
-    width: 95%;
-    text-align: center; 
+    width: 95%; */
+    /* text-align: center;  */
     display: inline-block;
     height: 150px;
  }
 
-  .more {
+ .blogTitle {
+     height: 74px;
+     margin: 20px auto;
+ }
+
+  .showCode {
       float: right;
       margin-right: 5px;
   }

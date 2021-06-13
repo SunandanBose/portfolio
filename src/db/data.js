@@ -10,7 +10,7 @@ export var data = {
         {
             "id": 2,
             "title": "Data Structure and Algorithm",
-            "body": "Solve Data Structure problems in managing and storing data in efficient format that enables efficient access and modification. ",
+            "body": "Solve Data Structure problems in managing and storing data in efficient format that enables efficient access and modification.",
             "imageUrl": "/images/blog/DataStructure.png",
             "github": "https://github.com/SunandanBose/practiceDS"
         },
