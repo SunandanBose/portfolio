@@ -1,5 +1,6 @@
 .root {
     background-image: linear-gradient(to bottom, #f9fbfe, #c4c6ca, #929498, #636569, #38393d);
+    padding-bottom: 10vh;
 }
 
 .header {
